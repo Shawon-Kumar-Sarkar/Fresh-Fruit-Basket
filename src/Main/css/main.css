@@ -1,12 +1,81 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ==============================> Start Header Section <============================== */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100dvh;
 }
 
-body {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.swiper-wrapper .swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
+
+.swiper-wrapper .slide-1 {
+    background-image: url('../../Assets/Home/Pineapple.jpg');
+}
+
+.swiper-wrapper .slide-2 {
+    background-image: url('../../Assets/Home/Strawberry.jpg');
+}
+
+.swiper-wrapper .slide-3 {
+    background-image: url('../../Assets/Home/Grapes.jpg');
+}
+
+.swiper-wrapper .slide-4 {
+    background-image: url('../../Assets/Home/Apple.jpg');
+}
+
+.swiper-wrapper .slide-5 {
+    background-image: url('../../Assets/Home/Banana.jpg');
+}
+
+.swiper-wrapper .swiper-slide .slide-overlay {
+    background-image: radial-gradient(#ffffff1A, #0000004D 80%);
+}
+
+.swiper-slide .slide-overlay .slide-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-overlay .slide-title-container .slide-title {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    overflow: hidden;
+}
+
+.slide-title-container .slide-title h3 {
+    font-size: clamp(36px, 6vw, 1000px);
+    font-weight: 800;
+    padding: 0 5px;
+    text-shadow: -1px -1px 3px #000,
+        1px -1px 3px #000,
+        1px 1px 3px #000,
+        -1px 1px 3px #000;
+}
+
+#slide-title-1 h3 {
+    color: #826B5E;
+}
+
+#slide-title-2 h3 {
+    color: #DF403E;
+}
+
+#slide-title-3 h3 {
+    color: #AAA02A;
+}
+
+#slide-title-4 h3 {
+    color: #BC5030;
+}
+
+#slide-title-5 h3 {
+    color: #5F710B;
+}
+
+
+/* ==============================> End Header Section <============================== */

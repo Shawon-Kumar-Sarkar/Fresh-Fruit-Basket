@@ -6,22 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh Fruit Basket - Home</title>
 
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="./src/Assets/Logo/favicon.ico" type="image/x-icon">
+
     <!-- Third Party Css Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- Custom Css Links -->
-    <link rel="stylesheet" href="./src/Main/css/main.css">
     <link rel="stylesheet" href="./src/Main/css/reuseable.css">
+    <link rel="stylesheet" href="./src/Main/css/animation.css">
+    <link rel="stylesheet" href="./src/Main/css/main.css">
 </head>
 
 <body>
-    <h1>hello world</h1>
+    <header>
+        <div class="wh-full swiper swiper-container">
+            <div class="wh-full swiper-wrapper">
+                <div class="wh-full swiper-slide slide-1">
+                    <div class="wh-full slide-overlay">
+                        <div class="wh-full slide-title-container">
+                            <div id="slide-title-1" class="slide-title">
+                                <h3>Pineapple</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wh-full swiper-slide slide-2">
+                    <div class="wh-full slide-overlay">
+                        <div class="wh-full slide-title-container">
+                            <div id="slide-title-2" class="slide-title">
+                                <h3>Strawberry</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wh-full swiper-slide slide-3">
+                    <div class="wh-full slide-overlay">
+                        <div class="wh-full slide-title-container">
+                            <div id="slide-title-3" class="slide-title">
+                                <h3>Grapes</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wh-full swiper-slide slide-4">
+                    <div class="wh-full slide-overlay">
+                        <div class="wh-full slide-title-container">
+                            <div id="slide-title-4" class="slide-title">
+                                <h3>Apple</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wh-full swiper-slide slide-5">
+                    <div class="wh-full slide-overlay">
+                        <div class="wh-full slide-title-container">
+                            <div id="slide-title-5" class="slide-title">
+                                <h3>Banana</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Third Party JS Link -->
+    <script src="https://unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
 
     <!-- Custom JS Links -->
     <script src="./src/Main/js/main.js"></script>
+    <script src="./src/Main/js/animation.js"></script>
 </body>
 
 </html>
